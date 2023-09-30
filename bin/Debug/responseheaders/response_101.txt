@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 20 Sep 2023 07:27:38 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: 0
+Last-Modified: Fri, 02 Sep 2022 05:09:39 GMT
+Pragma: no-cache
+Location: http://a-34.1fichier.com/d800441870
+
+HTTP/1.1 400 Bad Request
+Date: Wed, 20 Sep 2023 07:27:41 GMT
+Server: [May 23 2022 19:25:01]
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=utf-8
+

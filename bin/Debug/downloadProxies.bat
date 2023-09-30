@@ -1,0 +1,1 @@
+curl -sSf "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all" > proxy-list.txt

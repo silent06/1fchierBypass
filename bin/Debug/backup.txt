@@ -1,0 +1,41 @@
+                var httpRequest = (HttpWebRequest)WebRequest.Create(url);
+                httpRequest.Method = "POST";
+                httpRequest.UserAgent = "curl/8.0.1";
+                httpRequest.Referer = site;
+                httpRequest.Proxy = proxy;
+                httpRequest.ContentType = "application/json";
+                string noSSL = "on";
+
+
+                /*Post Request*/
+                var data = "{\"dl_no_ssl\":" + $"\"{noSSL}\"" + "}";
+               
+                var json2 = JsonSerializer.Serialize(data);
+                using (var streamWriter = new StreamWriter(httpRequest.GetRequestStream()))
+                {
+                    streamWriter.Write(data);
+                }
+
+                var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                {
+                    var result = streamReader.ReadToEnd();
+                    string direct = "";
+                    byte[] bytes = Encoding.UTF8.GetBytes(result);
+                    File.WriteAllBytes("responseContent.html", bytes);
+                    Utils.AppendText(string.Concat(new object[] { $"Post Status Code: {httpResponse.StatusCode}" }), ConsoleColor.Green);
+                    HtmlDocument htmlDoc2 = new HtmlDocument();
+                    htmlDoc2.LoadHtml(result);
+
+                    HtmlNodeCollection fichierlink = htmlDoc2.DocumentNode.SelectNodes("//a[contains(@href, 'https://o-7.1fichier.com')]");
+
+                    foreach (HtmlNode link in fichierlink)
+                    {
+                        string href = link.GetAttributeValue("href", "");
+                        // Process the link as needed
+                        direct = href;
+                    }
+
+                    Utils.AppendText(string.Concat(new object[] { $"Dynamic website: {direct}" }), ConsoleColor.Green);
+                    return direct;
+                }

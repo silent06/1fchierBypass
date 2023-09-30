@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="fr">
+	<head>
+    <title>1fichier.com: Cloud Storage</title>
+		<meta name="robots" content="noindex" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link rel="shortcut icon" href="https://img.1fichier.com/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://img.1fichier.com/favicon.ico" />
+    <link rel="icon" type="image/png" href="https://img.1fichier.com/favicon.png" />
+    <link rel="apple-touch-icon" href="https://img.1fichier.com/favicon.png" />
+    <link rel="image_src" href="https://img.1fichier.com/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="https://img.1fichier.com/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="https://img.1fichier.com/css/jquery.ui.css" />
+    <script type="text/javascript" src="https://img.1fichier.com/js/jquery.js"></script>
+		
+		<script type="text/javascript">
+			<!--//<![CDATA[
+				jQuery(document).ready(function($) {
+          
+          $("#modal-msg").dialog({minHeight: 350, minWidth: 700, modal: true, draggable: false, resizable: false, closeOnEscape: false});
+          
+					
+          
+          setTimeout( function() { $("#dlw").hide(); $("#dlw1").hide(); $("#dlb").show(); }, 40000 );
+				});
+			//]]>-->
+		</script>
+    
+      <script async src=//tags.refinery89.com/v2/1fichiercom.js></script>
+      <script async src="//t.seedtag.com/t/8789-3513-01.js"></script>
+    
+	</head>
+<body>
+<script type="text/javascript">
+	<!--
+		jQuery(document).ready(function($) {
+			if(getCookie('show_cm') != 'no') { $('#cookie_box').show(); }
+			$('.cookie_box_close').click(function() { $('#cookie_box').hide(); var expires = new Date(); expires.setTime(expires.getTime() + 15552000000); document.cookie = 'show_cm=no; expires=' + expires.toUTCString();	return false; });
+		});
+		function getCookie(cookie_name) {
+			if (document.cookie.length>0) {
+				cookie_start = document.cookie.indexOf(cookie_name + "=");
+				if (cookie_start != -1)	{	cookie_start = cookie_start + cookie_name.length+1;	cookie_end = document.cookie.indexOf(";",cookie_start);
+				if (cookie_end == -1)	{ cookie_end = document.cookie.length; }
+				return unescape(document.cookie.substring(cookie_start,cookie_end));
+			}}
+			return "";
+		}				
+	// -->
+</script>
+<div id="cookie_box">Les cookies assurent le bon fonctionnement de nos services.
+	<br/>En utilisant ces derniers, vous acceptez l'utilisation des cookies.
+	<br/>Pour plus d'informations sur les cookies et la gestion de vos données sur notre site:
+	<br/><br/><a href="https://1fichier.com/legal.html">Mentions L&eacute;gales<br/>Conditions d'utilisation des services<br/>Politique de Confidentialité - Données Personnelles</a>
+	<br/><br/><a href="#" style="text-decoration-color: #fbc260" class="cookie_box_close">J'accepte l'usage de cookies et les Conditions d'utilisation</a>
+</div>
+
+<script type="text/javascript">
+	<!-- 
+		$( function() {
+	    $.widget( "custom.iconselectmenu", $.ui.selectmenu, {
+  	    _renderItem: function( ul, item ) {
+    	    var li = $("<li>"), wrapper = $("<div>", { text: item.label });
+					if( item.element.attr("data-imagesrc") )	{ $( "<span>", { style: "background-image: url( \"" + item.element.attr("data-imagesrc") + "\")", "class": "ui-icon avatar" }).appendTo( wrapper ); }
+					else { $( "<span>", { style: "background-image:none", "class": "ui-icon avatar" }).appendTo( wrapper ); }
+	        return li.append( wrapper ).appendTo( ul );
+      	},
+				_renderButtonItem: function( item ) {
+				  var buttonItem;
+					if( item.element.attr("data-imagesrc") ) { buttonItem = $( "<span>", { style: "background-image: url( \"" + item.element.attr("data-imagesrc") + "\")", "class": "ui-selectmenu-text avatar" }) }
+					else {  buttonItem = $( "<span>", { style: "background-image:none", "class": "ui-selectmenu-text avatar" }) }
+				  this._setText( buttonItem, item.label );
+				  return buttonItem;
+				}
+    	});
+
+			
+    	$(".lselector").iconselectmenu({ width:200, change: function( event, ui ) { window.location.href=this.value; }  }).iconselectmenu("menuWidget").addClass( "ui-menu-icons" );
+  	});
+	-->
+</script>
+
+<div id="header">
+	<a href="https://1fichier.com" title="1fichier.com"><img id="logo" src="https://img.1fichier.com/logo.png" alt="logo" width="240" height="70" /></a>
+
+	<div id="btn-container">
+		<select class="lselector">
+			<option value="/?5ciygoc5waex29nsf2ft&amp;lg=fr" data-imagesrc="https://img.1fichier.com/flags/fr.png" selected="selected">Français</option>
+			<option value="/?5ciygoc5waex29nsf2ft&amp;lg=en" data-imagesrc="https://img.1fichier.com/flags/en.png">English</option>
+		</select>
+
+		<a class="ui-button ui-corner-all" href="https://1fichier.com/tarifs.html" title="Tarifs">Tarifs</a>
+
+		
+			<a class="ui-button ui-corner-all" href="https://1fichier.com/register.pl" title="Inscription">Inscription</a>
+			<a class="ui-button ui-corner-all" href="https://1fichier.com/login.pl" title="Connexion">Mon compte</a>
+		
+	</div>
+  <span class="spacer" style="height:1px"></span>
+</div>
+<div class="spacer" style="height:70px"></div>
+
+
+<form accept-charset="UTF-8" method="post" action="https://1fichier.com/?5ciygoc5waex29nsf2ft" style="min-width:1000px;margin:auto" class="alc">
+
+  
+
+    
+      <div id="modal-msg" title="&#x1F449; N'attendez plus &#x1F448;" style="text-align:center">    
+        <br/>Pour éviter la publicité, les temps d'attente et les limitations : <a href="https://1fichier.com/console/abo.pl" style="text-decoration:underline;font-weight:bold">souscrivez !</a>
+        <br/>
+        <br/>A partir de <span style="font-weight:bold;color:#BB0000">2€ par mois</span> !
+        <br/>
+        <br/><a href="https://1fichier.com/console/abo.pl" style="text-decoration:underline;font-weight:bold">Cliquez ici pour souscrire maintenant !</a>
+        <br/>
+        <br/>Votre temps vaut davantage !
+      </div>
+    
+
+	
+
+	
+	
+	<input type="hidden" name="adz" value="994.15645436673" />
+
+	
+
+	
+
+	
+
+  
+
+	
+		<span class="spacer spacer-20"></span>
+		<table class="premium" style="width:900px;margin:10px auto" cellspacing="4">
+			<tr>
+				<td style="width:150px" rowspan="3" ><img style="vertical-align:middle" src="https://1fichier.com/qr.pl?do=0.5ciygoc5waex29nsf2ft&s=1" width="148" height="148" /></td>
+				<td class="titre normal" style="width:180px">Nom du fichier :</td>
+				<td class="normal">Achievement Unlocker.zip</td>
+			</tr>
+			<tr><td class="titre normal">Date :</td><td class="normal">02/09/2022</td></tr>
+			<tr><td class="titre normal">Taille :</td><td class="normal">129.02 Mo</td></tr>
+			
+		</table>
+	
+
+	
+	
+	<span class="spacer spacer-10"></span>
+	<div style="width:350px;margin:auto;text-align:left;line-height:32px">
+		<label class="CKBL">	
+			<input type="checkbox" name="dl_no_ssl" />
+			<span></span>
+			Télécharger sans chiffrement SSL <a href="https://1fichier.com/hlp.html#securitesite"><img src="https://img.1fichier.com/icons/icon_question.png" style="width:18px;vertical-align:middle" /></a>
+		</label>
+		<label class="CKBL">
+			<input type="checkbox" name="dlinline" />
+			<span></span>
+			Téléchargement Inline <a href="https://1fichier.com/hlp.html#dispositioninline"><img src="https://img.1fichier.com/icons/icon_question.png" style="width:18px;vertical-align:middle" /></a>
+		</label>
+		
+
+		
+	</div>
+	<span class="spacer spacer-10"></span>
+  
+    <button id="dlw" style="float:none;margin:auto;font-weight:bold;width:350px;height:100px;font-size:14px;border:2px solid red" class="btn-general btn-orange" disabled="disabled" />Le téléchargement gratuit est plus lent &#x1F937;<br/>Veuillez patienter &#x23F3;...</button>
+    <input id="dlb" type="submit" value="Acceder au téléchargement" style="display:none;float:none;margin:auto;font-weight:bold;width:300px;height:50px;font-size:14px;border:2px solid red" class="ok btn-general btn-orange" />
+    <div id="dlw1" class="alc" style="margin:10px;padding:10px"><a href="https://1fichier.com/console/abo.pl" style="font-weight:bold">Cliquez ici pour souscrire et ne plus attendre !</a><br/>A partir de <span style="color:red">2€</span> par mois!</div>
+  
+</form> 
+
+<span class="spacer spacer-20"></span>
+
+
+
+<span class="spacer" style="height:100px">&nbsp;</span>
+<div id="footer">
+	<div class="center-container">
+		<a href="https://1fichier.com" title="Retour à la page d'accueil"><img class="gauche" src="https://img.1fichier.com/logo-footer.png" alt="1fichier.com" /></a>
+		<div id="link-container">
+			<a href="https://1fichier.com/cgu.html">L&eacute;gal &amp; Conditions</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/abus.html">Signaler un contenu</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/tarifs.html">Tarifs</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/revendeurs.html">Revendeurs</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/hlp.html">Aide</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/network.html">Speedtest</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/contact.html">Contact</a>
+			<br/>
+			<a target="_new" href="https://twitter.com/1fichiercom"><img src="https://img.1fichier.com/twitter.png" alt="Twitter" style="padding:0;border:0" /></a>&nbsp;&nbsp;&nbsp;
+			<a target="_new" href="https://facebook.com/1fichiercom"><img src="https://img.1fichier.com/facebook.png" alt="Facebook" style="padding:0;border:0" /></a>&nbsp;&nbsp;&nbsp;
+			<a href="https://1fichier.com/api.html" style="vertical-align:top">API</a>&nbsp;&nbsp;&nbsp;
+			<a target="_new" href="https://dstorage.fr" style="vertical-align:top">DStorage SASU &copy; 2009-2023</a>
+		</div>
+	</div>
+	<span class="spacer"></span>
+</div>       
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+curl -s -X POST -d "dl_no_ssl=on&pass=mike1234" -D response_1.txt https://1fichier.com/?god5vu0pw76g9zfhnlzn
